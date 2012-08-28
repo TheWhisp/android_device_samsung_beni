@@ -57,5 +57,5 @@
     <int name="maxMessageTextSize">-1</int>
 
     <!-- User-Agent parameter used in MMS http request -->
-    <string name="userAgent">Samsung GT-S5570 (Galaxy Mini)</string>
+    <string name="userAgent">Samsung GT-S5670 (Galaxy Fit)</string>
 </mms_config>
