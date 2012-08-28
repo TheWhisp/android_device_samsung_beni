@@ -13,20 +13,9 @@
 # limitations under the License.
 
 ## Inherit vendor proprietary files
-$(call inherit-product, vendor/samsung/beni/beni-vendor.mk)
+$(call inherit-product, vendor/samsung/beni/vendor_blobs.mk)
 
 include device/samsung/msm7x27-common/common.mk
-
-DEVICE_PACKAGE_OVERLAYS := device/samsung/beni/overlay
-
-## Audio
-PRODUCT_PACKAGES += \
-    audio.primary.beni \
-    audio_policy.beni
-
-## Camera
-PRODUCT_PACKAGES += \
-    camera.beni
 
 ## Ramdisk
 PRODUCT_COPY_FILES += \
