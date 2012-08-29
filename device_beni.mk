@@ -17,6 +17,15 @@ $(call inherit-product, vendor/samsung/beni/vendor_blobs.mk)
 
 include device/samsung/msm7x27-common/common.mk
 
+## Audio
+PRODUCT_PACKAGES += \
+    audio.primary.beni \
+    audio_policy.beni
+
+## Camera
+PRODUCT_PACKAGES += \
+    camera.beni
+
 ## Ramdisk
 PRODUCT_COPY_FILES += \
     device/samsung/beni/ramdisk/init.gt-s5670board.rc:root/init.gt-s5670board.rc \
