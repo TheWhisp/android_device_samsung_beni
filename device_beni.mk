@@ -17,6 +17,9 @@ $(call inherit-product, vendor/samsung/beni/vendor_blobs.mk)
 
 include device/samsung/msm7x27-common/common.mk
 
+## Device specific overlay
+DEVICE_PACKAGE_OVERLAYS := device/samsung/beni/overlay
+
 ## Audio
 PRODUCT_PACKAGES += \
     audio.primary.beni \
