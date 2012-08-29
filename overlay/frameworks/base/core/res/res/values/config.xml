@@ -57,6 +57,8 @@
 
     <!-- True will enable the electron beam screen-off animation. -->
     <bool name="config_screenOffAnimation">true</bool>
+
+    <bool name="config_animateScreenLights">false</bool>
     
     <bool name="config_batterySdCardAccessibility">true</bool>
 
