@@ -29,7 +29,6 @@ TARGET_OTA_ASSERT_DEVICE := beni,GT-S5670
 ## Recovery
 BOARD_LDPI_RECOVERY := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := "<font_7x16.h>"
-TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/beni/recovery/recovery_kernel
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/beni/recovery/recovery_ui.c
 BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/beni/recovery/graphics.c
 TARGET_RECOVERY_INITRC := device/samsung/beni/recovery/recovery.rc
