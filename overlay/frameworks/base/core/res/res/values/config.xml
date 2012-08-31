@@ -55,9 +55,6 @@
          kill the foreground app. -->
     <integer name="config_backKillTimeout">1000</integer>
 
-    <!-- True will enable the electron beam screen-off animation. -->
-    <bool name="config_screenOffAnimation">true</bool>
-
     <bool name="config_animateScreenLights">false</bool>
     
     <bool name="config_batterySdCardAccessibility">true</bool>
@@ -95,5 +92,7 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareKeys">7</integer>
-
+    
+     <!-- Boolean to enable stk functionality on Samsung phones -->
+    <bool name="config_samsung_stk">true</bool>
 </resources>
