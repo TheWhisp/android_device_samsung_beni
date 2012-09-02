@@ -40,7 +40,7 @@ dalvik.vm.execution-mode=int:jit
 dalvik.vm.dexopt-data-only=1
 
 ## Mass storage
-persist.sys.usb.config=mass_storage,adb
+persist.sys.usb.config=adb,mass_storage
 persist.service.adb.enable=1
 ro.vold.umsdirtyratio=20
 
