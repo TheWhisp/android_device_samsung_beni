@@ -26,6 +26,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_beni_defconfig
 ## Assert
 TARGET_OTA_ASSERT_DEVICE := beni,GT-S5670
 
+## Camera
+BOARD_CAMERA_5MP := true
+
 ## Recovery
 BOARD_LDPI_RECOVERY := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := "<font_7x16.h>"
