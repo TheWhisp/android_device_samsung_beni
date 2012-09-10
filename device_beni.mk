@@ -37,5 +37,3 @@ PRODUCT_COPY_FILES += \
 
 ## LDPI assets
 PRODUCT_AAPT_PREF_CONFIG := ldpi
-
-
